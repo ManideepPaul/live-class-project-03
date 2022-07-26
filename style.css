@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #151c15;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/************* Nav section ****************/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    /* height: 10vh; */
+}
+
+.logo {
+    width: 120px;
+}
+
+.link-item {
+    margin-right: 30px;
+    color: #929191;
+}
+
+a:first-child {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.btn {
+    font-size: 17px;
+    color: #788021;
+    background: transparent;
+    border: 1px solid #788021;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+
+
+/************* Hero section ****************/
+
+.heroSection {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.text {
+    display: flex;
+    padding: 30px 100px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    font-size: 52px;
+    width: 60%;
+}
+
+p {
+    width: 35%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #929191;
+}
+.bg {
+    background: url(./assets/bg.jpg) no-repeat center center;
+    background-size: 100%;
+    flex-grow: 1;
+}
+
+
+/************* Footer section ****************/
+
+footer {
+    /* position: relative; */
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right {
+    display: flex;
+}
+
+.forbg {
+    display: inline-block;
+    background-color: #142314;
+    height: 100px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bacbg {
+    background-color: #788021;
+    display: inline-block;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.forw {
+    border: 1px solid #ffffff;
+    padding: 11px 13px 8px 13px;
+    border-radius: 100%;
+}
+
+.back {
+    border: 1px solid #788021;
+    padding: 11px 8px 8px 18px;
+    border-radius: 100%;
+}
+
+img[alt="backward"] {
+    width: 20px;
+}
+
+img[alt="forward"] {
+    width: 20px;
+}
