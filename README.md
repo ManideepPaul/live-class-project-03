@@ -3,7 +3,7 @@
 <br>
 
 
-I learned more about `border-box` property. 
+I learned more about `flex-grow`. Used it to make `hero-section` grow more than `navbar` and `footer` according to screen size.
 
 - It took me around **3 hour** to complete the project.
 
